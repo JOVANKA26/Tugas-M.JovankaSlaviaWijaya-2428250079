@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventaris Barang</title>
+    <link rel="stylesheet" type="text/css" href="Style1.css"
+</head>
+<body>
+    <div class="container">
+        <center><h2>INVENTARIS BARANG</h2></center>
+        <form>
+            <label for="nama">Nama Barang:</label>
+            <input type="text" id="nama" name="nama" required>
+            
+            <label for="jumlah">Jumlah:</label>
+            <input type="number" id="jumlah" name="jumlah" required>
+            
+            <label for="kategori">Kategori:</label>
+            <select id="kategori" name="kategori">
+                <option value="Elektronik">Elektronik</option>
+                <option value="Furniture">Furniture</option>
+                <option value="Alat Tulis">Alat Tulis</option>
+                <option value="Alat Pembersih">Alat Kebersihan</option>
+            </select>
+            
+            <button type="submit">Tambahkan Barang</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <center><h2>Daftar Barang</h2></center>
+        <table>
+            <tr>
+                <th>Nama Barang</th>
+                <th>Jumlah</th>
+                <th>Kategori</th>
+            </tr>
+            <tr><td>Komputer</td><td>10</td><td>Elektronik</td></tr>
+            <tr><td>Kursi</td><td>5</td><td>Furniture</td></tr>
+            <tr><td>Kalkulator</td><td>8</td><td>Elektronik</td></tr>
+            <tr><td>Pena</td><td>12</td><td>Alat Tulis</td></tr>
+            <tr><td>Sapu</td><td>3</td><td>Alat Kebersihan</td></tr>
+            <tr><td>Monitor</td><td>15</td><td>Elektronik</td></tr>
+            <tr><td>Pensil</td><td>7</td><td>Alat Tulis</td></tr>
+            <tr><td>Pel</td><td>9</td><td>Alat Kebersihan</td></tr>
+            <tr><td>Meja</td><td>20</td><td>Furniture</td></tr>
+            <tr><td>Mouse</td><td>6</td><td>Elektronik</td></tr>
+        </table>
+    </div>
+</body>
+</html>
